@@ -17,6 +17,9 @@ There are only two dependencies used in this projects.
 - The standard windows.h in order to gain access to functions within the console itself. 
 - json.h used to parse the level files: found at - https://github.com/nlohmann/json
 
+# Gameplay Examples
+
+
 # Development Patterns Utilised
 For the project overall i opted to use composition over inheritance. \
 The prototype follows the basic pattern of having a main game loop, a level manager and a display/screen.
