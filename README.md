@@ -2,7 +2,7 @@
 # Build Instructions
 Open the build.bat file in the project directory
 # Dependencies
-The only dependency the project relies on is json.h used to parse the level files: found at - https://github.com/nlohmann/json
+The only dependency the project relies on is json.h used to parse the level files: found at - https://github.com/nlohmann/json\n
 The project also utilises some of the 
 # Development Patterns Utilised
 The prototype follows the basic pattern of having a main game loop and a level manager.
