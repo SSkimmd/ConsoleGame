@@ -38,6 +38,10 @@ Won
 For the project overall i opted to use composition over inheritance. \
 The prototype follows the basic pattern of having a main game loop, a level manager and a display/screen.
 
+Application Diagram
+![Application Diagram](screenshots/application-diagram.drawio.png)
+
+
 # Level Manager
 The level manager contains references to all objects in the scene through the level struct, while also keeping track of the game state, player state and enemy state. \
 The level manager is also responsible for loading each level from their respective level.json file and generating the scene. \
