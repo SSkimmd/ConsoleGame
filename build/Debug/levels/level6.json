@@ -1,0 +1,8 @@
+{
+    "name": "level6",
+    "level": {
+        "max_colours": 8,
+        "startState": 0,
+        "objects": []
+    }
+}
