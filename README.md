@@ -36,9 +36,9 @@ Won
 
 # Development Patterns Utilised
 For the project overall i opted to use composition over inheritance. \
-The prototype follows the basic pattern of having a main game loop, a level manager and a display/screen. \
+The prototype follows the basic pattern of having a main game loop, a level manager and a display/screen.
 
-Application Diagram
+Application Diagram \
 ![Application Diagram](screenshots/application-diagram.drawio.png)
 
 
