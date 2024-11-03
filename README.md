@@ -64,6 +64,16 @@ The controls for the player are housed within the update function. This update f
 The other update function within the player class is the FixedUpdate function, this function is called only once a certain amount of time has passed, this is similar to the likes of professional game engines such as unity. \
 The function is used to update the position of the player at a set interval, using a velocity (x, y) set by the controls.
 
+# Evaluation
+Overall the project went well, although time became a limiting factor towards the end, so many of the planned features had to be cut
+
+
+
+
+
+
+
+
 
 
 
