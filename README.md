@@ -18,7 +18,7 @@ There are only two dependencies used in this projects.
 - json.h used to parse the level files: found at - https://github.com/nlohmann/json
 
 # Gameplay Examples
-![Example Screenshot Of The Main Menu](/screenshots/main_menu.png)
+![Example Screenshot Of The Main Menu](/tree/main/screenshots/main_menu.png)
 
 
 # Development Patterns Utilised
