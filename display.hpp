@@ -3,11 +3,7 @@
 #include "windows.h"
 #include <vector>
 #include <iostream>
-#include <chrono>
 #include <list>
-#include <thread>
-#include <atomic>
-#include <condition_variable>
 
 class Display {
     public:

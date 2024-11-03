@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/jimmy/Desktop/C++ Console",
-      "program": "c:/Users/jimmy/Desktop/C++ Console/build/Debug/outDebug",
+      "program": "c:/Users/jimmy/Desktop/C++ Console/build/Debug/game",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
