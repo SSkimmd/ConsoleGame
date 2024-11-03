@@ -1,6 +1,6 @@
 ﻿# C++ Based Console Game
 # Build Instructions
-Open the build.bat file in the project directory
+Assuming you have g++ installed, simply open the build.bat file in the project directory
 
 # Gameplay Features
 The gameplay is inspired by the original space invaders, although in this case, the game creates difficulty by using the different colours displayable in the console.
