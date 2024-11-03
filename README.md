@@ -13,8 +13,9 @@ Featuring:
 - Sprite And Object Loading And Creation System (Unused)
 
 # Dependencies
-The only dependency the project relies on is json.h used to parse the level files: found at - https://github.com/nlohmann/json \
-The project also utilises some of the 
+There are only two dependencies used in this projects. \
+- The standard windows.h in order to gain access to functions within the console itself. \
+- json.h used to parse the level files: found at - https://github.com/nlohmann/json \
 
 # Development Patterns Utilised
 For the project overall i opted to use composition over inheritance. \
