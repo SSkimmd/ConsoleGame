@@ -14,7 +14,7 @@ Featuring:
 
 # Dependencies
 There are only two dependencies used in this projects.
-- The standard windows.h in order to gain access to functions within the console itself. 
+- The standard windows.h library in order to use console functions. 
 - json.h used to parse the level files: found at - https://github.com/nlohmann/json
 
 # Gameplay Examples
