@@ -20,10 +20,16 @@ There are only two dependencies used in this projects.
 # Gameplay Examples
 Main Menu
 ![Example Screenshot Of The Main Menu](screenshots/main_main.png)
+
+\
 In-Level
 ![Example Screenshot Of The Main Menu](screenshots/level.png)
+
+\
 Dead
 ![Example Screenshot Of The Main Menu](screenshots/dead.png)
+
+\
 Won
 ![Example Screenshot Of The Main Menu](screenshots/win.png)
 
