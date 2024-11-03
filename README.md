@@ -8,11 +8,13 @@ The gameplay is inspired by the original space invaders, although in this case, 
 Featuring:
 - Multiple Levels, Progressively Get Harder By Increasing Max Colours
 - Level Selection Menu, Game Win Screen And Game Lose Screen
+- Projectile And Collision System
+- Level Loading System
+- Sprite And Object Loading And Creation System (Unused)
 
 # Dependencies
 The only dependency the project relies on is json.h used to parse the level files: found at - https://github.com/nlohmann/json \
 The project also utilises some of the 
-
 
 # Development Patterns Utilised
 For the project overall i opted to use composition over inheritance. \
