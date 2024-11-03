@@ -16,6 +16,7 @@ Featuring:
 There are only two dependencies used in this projects.
 - The standard windows.h library in order to use console functions. 
 - json.h used to parse the level files: found at - https://github.com/nlohmann/json
+- The display class also uses a heavily modified version of the console game engine: found at - https://github.com/OneLoneCoder/Javidx9/blob/master/ConsoleGameEngine/olcConsoleGameEngine.h
 
 # Gameplay Examples
 Main Menu
