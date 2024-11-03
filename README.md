@@ -23,7 +23,8 @@ The prototype follows the basic pattern of having a main game loop, a level mana
 
 # Level Manager
 The level manager contains references to all objects in the scene through the level struct, while also keeping track of the game state, player state and enemy state. \
-The level manager is also responsible for loading each level from their respective level.json file and generating the scene.
+The level manager is also responsible for loading each level from their respective level.json file and generating the scene. \
+While the level state is set to playing, the level manager will continuously spawn randomly generated enemies.
 
 # Display
 The display class contains all the functions used to display content. \
