@@ -49,8 +49,12 @@ The level manager is also responsible for loading each level from their respecti
 While the level state is set to playing, the level manager will continuously spawn randomly generated enemies.
 
 # Display
-The display class contains all the functions used to display content. \
-The display create function is called to create a new console window and prepare the buffer ready for data. 
+The display class is the root of the entire game. \
+It contains all the functions used for displaying text and characters to the screen. \
+The display create function is called to create a new console window and prepare the buffer ready for data. \
+The display update function writes the entire buffer to the screen each time it is called. This is used to prevent the flickering sometimes seeen in console style games as the screen doesn't have to
+constantly be cleared line by line evertime new content is being displayed. \
+Further optimisation for this could be to check if the buffer already contains a sprite that hasn't changed to prevent needless draw calls.
 
 # Sprites And Objects
 Each object/sprite on the screen contains an update and draw function called by the level manager.
