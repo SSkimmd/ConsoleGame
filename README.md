@@ -61,7 +61,7 @@ Further optimisation for this could be to check if the buffer already contains a
 
 # Sprites And Objects
 Each object/sprite on the screen contains an update and draw function called by the level manager. \
-The sprite also contains a position tuple, this is an x and y position that can be accessed through the SetPositon function. This allows the sprite's position to be updated in the buffer to be drawn on the next frame \
+The sprite also contains a position tuple, this is an x and y position that can be accessed through the SetPositon function. This allows the sprite's position to be updated in the buffer to be drawn on the next frame
 
 # Enemies
 As a result of not using inheritance, the enemy doesn't inherit from the sprite class, instead, the enemy object contains and controls a sprite object. \
