@@ -37,7 +37,10 @@ Won
 
 # Development Patterns Utilised
 For the project overall i opted to use composition over inheritance. \
-The prototype follows the basic pattern of having a main game loop, a level manager and a display/screen.
+The prototype attempts to follow as many of the best practises seen in other game engines. \
+Examples of this are: 
+- Using tuple's for position data as a substitute for vector2's found in the unity game engine.
+- FixedUpdate functions being called at a set interval to keep consistent amount of time between frames.
 
 Application Diagram \
 ![Application Diagram](screenshots/application-diagram.drawio.png)
@@ -57,7 +60,8 @@ constantly be cleared line by line evertime new content is being displayed. \
 Further optimisation for this could be to check if the buffer already contains a sprite that hasn't changed to prevent needless draw calls.
 
 # Sprites And Objects
-Each object/sprite on the screen contains an update and draw function called by the level manager.
+Each object/sprite on the screen contains an update and draw function called by the level manager. \
+The sprite also contains a position tuple, this is an x and y position that can be accessed through the SetPositon function. This allows the sprite's position to be updated in the buffer to be drawn on the next frame \
 
 # Enemies
 As a result of not using inheritance, the enemy doesn't inherit from the sprite class, instead, the enemy object contains and controls a sprite object. \
