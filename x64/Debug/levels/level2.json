@@ -1,0 +1,9 @@
+{
+    "name": "level2",
+    "level": {
+        "max_colours": 4,
+        "win_requirement": 20,
+        "startState": 0,
+        "objects": []
+    }
+}

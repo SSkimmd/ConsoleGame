@@ -1,9 +1,0 @@
-{
-    "name": "level5",
-    "level": {
-        "max_colours": 7,
-        "win_requirement": 20,
-        "startState": 0,
-        "objects": []
-    }
-}

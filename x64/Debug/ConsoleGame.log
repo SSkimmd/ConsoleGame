@@ -1,9 +1,2 @@
-﻿  display.cpp
-  enemy.cpp
-  game.cpp
-  main.cpp
-  manager.cpp
-  player.cpp
-  projectile.cpp
-  Generating Code...
+﻿  LINK : C:\Users\jimmy\Desktop\C++ Console\x64\Debug\ConsoleGame.exe not found or not built by the last incremental link; performing full link
   ConsoleGame.vcxproj -> C:\Users\jimmy\Desktop\C++ Console\x64\Debug\ConsoleGame.exe

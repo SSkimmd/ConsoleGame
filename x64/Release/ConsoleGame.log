@@ -1,0 +1,10 @@
+﻿  display.cpp
+  enemy.cpp
+  game.cpp
+  main.cpp
+  manager.cpp
+  player.cpp
+  projectile.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  ConsoleGame.vcxproj -> C:\Users\jimmy\Desktop\C++ Console\x64\Release\ConsoleGame.exe
