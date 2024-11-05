@@ -6,7 +6,7 @@ Game::Game() {
 
 void Game::Start() {
     display = Display();
-    display.Create(180, 60, 8, 14);
+    display.Create(180, 60, 8, 12);
 
     levelManager = LevelManager(&display);
 
