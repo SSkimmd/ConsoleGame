@@ -1,8 +1,0 @@
-{
-    "name": "level3",
-    "level": {
-        "max_colours": 5,
-        "startState": 0,
-        "objects": []
-    }
-}

@@ -51,7 +51,9 @@ Level LevelManager::LoadLevelData(std::string name) {
     std::string levelName = data["name"].dump();
     level.name = levelName;
     level.MaxColours = data["level"]["max_colours"];
+    level.WinRequirement = data["level"]["win_requirement"];
     CurrentLevel = level;
+
 
     StartLevel();
     return level;
@@ -74,7 +76,7 @@ void LevelManager::StartLevel() {
 */
 void LevelManager::Draw() {
     display->Fill(0, 0, display->GetWidth(), display->GetHeight(), L' ', 0);
-    display->DrawString(display->GetWidth() - 15, 1, "Destroyed: " + std::to_string(EnemiesDestroyed), 15); 
+    display->DrawString(display->GetWidth() - 17, 1, "Destroyed: " + std::to_string(EnemiesDestroyed) + "/" + std::to_string(GetCurrentLevel()->WinRequirement), 15); 
     player.Draw(display);
 
     if(!player.IsDead()) {
@@ -162,7 +164,7 @@ void LevelManager::Update() {
         if(!player.IsDead()) {
             //this really shouldn't be hard coded
             //nothing more permanent than temporary code
-            if(EnemiesDestroyed >= 10) {
+            if(EnemiesDestroyed >= GetCurrentLevel()->WinRequirement) {
                 State = LevelState::WON;
                 return;
             }

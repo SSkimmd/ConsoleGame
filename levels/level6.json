@@ -2,6 +2,7 @@
     "name": "level6",
     "level": {
         "max_colours": 8,
+        "win_requirement": 20,
         "startState": 0,
         "objects": []
     }

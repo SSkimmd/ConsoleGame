@@ -37,7 +37,7 @@ bool Projectile::CheckCollision() {
         if(x <= (enemyX + enemy.GetSprite()->GetWidth() - 1) && x >= enemyX) {
             if(y == (enemyY + enemy.GetSprite()->GetHeight() - 1)) {
                 if(enemy.GetColour() == colour) {
-                    enemy.Hit(50);
+                    enemy.Hit(100);
                 }
                 return true;
             }
