@@ -80,7 +80,7 @@ void Player::Update(long CurrentTime) {
     this->CurrentTime = CurrentTime;
 
     if((GetAsyncKeyState(VK_UP) & 0x8000)) {
-        FireWeapon(std::tuple(0, -1));
+        FireWeapon(std::tuple<int, int>(0, -1));
     }
     if((GetAsyncKeyState(VK_RIGHT) & 0x8000)) {
         if(CurrentTime > LastColourChange + 100) {

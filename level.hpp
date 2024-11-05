@@ -9,4 +9,5 @@ struct Level {
     std::vector<Sprite> sprites = {};
     std::vector<Enemy> enemies = {};
     int MaxColours = 0;
+    int WinRequirement = 0;
 };
